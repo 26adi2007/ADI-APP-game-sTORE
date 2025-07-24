@@ -55,6 +55,14 @@ const apps = [
     img: "Temple Run 2.jpeg",
     link: "https://play.google.com/store/apps/details?id=com.imangi.templerun2"
   },
+   {
+    name: "Minecraft:Dream it,Build it!",
+    rating: "4.6",
+    size: "512MB",
+    category: "Running",
+    img: "minecraft.jpeg",
+    link: "https://mcpedl.org/downloading/"
+  },
   {
     name: "8 Ball Pool",
     rating: "4.5",
@@ -63,6 +71,7 @@ const apps = [
     img: "8 Ball Pool.jpeg",
     link: "https://play.google.com/store/apps/details?id=com.miniclip.eightballpool"
   }
+
 ];
 
 const appList = document.getElementById('app-list');
@@ -90,3 +99,4 @@ document.getElementById('search').addEventListener('input', function() {
 
 // Initial render
 renderApps(apps);
+
